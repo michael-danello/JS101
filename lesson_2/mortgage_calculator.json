@@ -1,0 +1,13 @@
+{
+  "prompts": {
+    "loanDuration": "Enter the loan duration in months",
+    "APR":"Enter the Annual Percentage Rate (apr) in percentage points (e.g. 1% = 1)",
+    "loanAmount":"Enter the loan amount in dollars"
+  },
+  "errors":{
+    "loanDuration":"we were looking for a NUMBER for loan duration in months",
+    "APR":"we were looking for an APR in percentage points - like 15",
+    "loanAmount":"we were looking for a loan amount in dollars without commas or dollar signs - like 1000"
+  },
+  "result": "Your monthly payment is"
+}
